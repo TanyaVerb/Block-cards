@@ -1,0 +1,63 @@
+@import url("../font/font.css");
+@import url("./reset.css");
+
+html {
+  font-family: "Montserrat Alternates", "Tahoma", sans-serif;
+  font-size: 10px;
+  color: #24252e;
+}
+
+.block-card {
+  display: flex;
+  width: 1440px;
+  padding: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.block-card__card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 262px;
+  height: 224px;
+  padding: 20px 12px;
+  gap: 40px;
+  border-radius: 40px;
+  border: 1px solid var(--background, #e2e8f7);
+  background: #f6fcff;
+}
+
+.block-card__icons {
+  display: flex;
+  width: 1280px;
+  height: 224px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.block-card__text {
+  text-align: center;
+  line-height: normal;
+}
+
+.block-card__title-red {
+  color: var(--red, #ee3124);
+
+  /* font-size: 40px; */
+  /* font-style: normal;
+  font-weight: 700;
+  line-height: normal; */
+  text-transform: uppercase;
+}
